@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "TailorD (Partner & Admin App)",
+    "slug": "tailord-partner",
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tailord.partner"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0F172A"
+      },
+      "package": "com.tailord.partner"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-asset"
+    ],
+    "owner": "penchalagopi",
+    "extra": {
+      "eas": {
+        "projectId": "fae90f90-2f75-45dd-b374-789b1a3fee47"
+      }
+    }
+  }
+}
